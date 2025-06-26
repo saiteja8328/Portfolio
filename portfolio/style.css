@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #f2f2f2, #e9ecef);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #4db8ff;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.12);
+  box-shadow: 0 0 30px #4db8ff88;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.links a {
+  margin: 0 0.7rem;
+  color: #4db8ff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.links a:hover {
+  background-color: #00ffff33;
+  color: #ffffff;
+  box-shadow: 0 0 8px #00ffff88;
+}
+
+/* Sections */
+section {
+  margin: 2rem auto;
+  max-width: 950px;
+  padding: 2rem;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+section:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* Unique Background Accents */
+.about {
+  background: linear-gradient(120deg, #e0f7fa, #ffffff);
+}
+.education {
+  background: linear-gradient(120deg, #fff0f5, #ffffff);
+}
+.skills {
+  background: linear-gradient(120deg, #f1f8e9, #ffffff);
+}
+.projects {
+  background: linear-gradient(120deg, #fff8e1, #ffffff);
+}
+.extra {
+  background: linear-gradient(120deg, #ede7f6, #ffffff);
+}
+
+/* Headings with Animated Underline */
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 1.2rem;
+  color: #2c3e50;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 60px;
+  height: 3px;
+  background-color: #4db8ff;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+section:hover h2::after {
+  width: 100px;
+}
+
+/* List and Paragraph Styling */
+ul {
+  padding-left: 1.5rem;
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
+p {
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+}
+
+/* Projects Links */
+.projects a {
+  display: inline-block;
+  color: #0077cc;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.projects a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 2px;
+  background-color: #ff6600;
+  transition: width 0.3s ease-in-out;
+}
+
+.projects a:hover::after {
+  width: 100%;
+}
+
+.projects a:hover {
+  color: #ff6600;
+}
+
+/* Footer */
+footer {
+  background: #203a43;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.95rem;
+  margin-top: 3rem;
+  letter-spacing: 0.6px;
+  box-shadow: inset 0 1px 4px rgba(255,255,255,0.1);
+}
