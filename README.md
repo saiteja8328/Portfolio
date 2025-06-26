@@ -35,10 +35,10 @@
 
 ## 🖼 Website Screenshot (Preview)
 
-> *(Add your screenshot image in the `images/` folder with the name `screenshot.png`)*
+(images/screenshot.png)
 
 
-*(Displayed automatically on GitHub if image exists)*
+(images/profile.png)
 
 ---
 
