@@ -3,55 +3,47 @@
 
 ## ✨ Features
 
-- 📸 Stylish profile photo with hover animation
-- 📑 Objective, Education, Skills, and Experience sections
-- 🧠 Clean layout for showcasing AI/ML interests and projects
-- 🔗 Social links (LinkedIn, GitHub, Email, Phone)
-- 💡 Animated section hover effects and responsive design
-- 🖥️ Modern UI with linear gradient backgrounds
+- Stylish profile photo with hover effect
+- Clear sections for resume presentation
+- Contact info with icons
+- Animated section hover effects
+- Fully responsive layout
 
 ---
 
 ## 🚀 Technologies Used
 
-- HTML5
-- CSS3 (custom styles and gradients)
-- JavaScript (basic)
-- Google Fonts – *Poppins*
+- HTML5  
+- CSS3  
+- JavaScript  
+- Google Fonts (Poppins)
 
 ---
 
 ## 📌 Sections Included
 
-- **Header** – Name, photo, and contact links  
-- **Objective** – Career summary  
-- **Education** – Academic history  
-- **Skills** – Tools, languages, and certifications  
+- **Header** – Name, photo, contact info  
+- **Objective** – Summary about goals  
+- **Education** – Academic background  
+- **Skills** – Programming and tools  
 - **Experience** – Internship at TechnoHacks  
-- **Projects** – GameHub, Snake Game, Weather Visualization  
-- **Activities** – Olympiad medal, UBA volunteer, Codevolt participation  
-- **Footer** – Copyright
+- **Projects** – Weather Project, GameHub, Snake Game  
+- **Activities** – Olympiad, UBA, Codevolt  
+- **Footer** – Basic copyright
 
 ---
 
-## 📷 Preview
+## 🖼 Website Screenshot (Preview)
 
-![Screenshot](images/profile.jpg)  
+> *(Add your screenshot image in the `images/` folder with the name `screenshot.png`)*
 
-## 🌐 Website Preview
 
-![Website Screenshot](images/screenshot.png)
+*(Displayed automatically on GitHub if image exists)*
 
 ---
 
 ## 📬 Contact
 
-- 📧 Email: [saiteja83285@gmail.com](mailto:saiteja83285@gmail.com)  
-- 🔗 LinkedIn: [https://www.linkedin.com/in/sai-teja-m-4a541b353/](https://www.linkedin.com/in/sai-teja-m-4a541b353/)  
-- 🐱 GitHub: [https://github.com/saiteja8328](https://github.com/saiteja8328)
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+- Email: saiteja83285@gmail.com  
+- LinkedIn: linkedin.com/in/sai-teja-m-4a541b353  
+- GitHub: github.com/saiteja8328
