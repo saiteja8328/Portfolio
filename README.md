@@ -33,12 +33,12 @@
 
 ---
 
-## 🖼 Website Screenshot (Preview)
+## 🖼 Images(Preview)
 
-(images/screenshot.png)
+images/screenshot.png
 
 
-(images/profile.png)
+images/profile.png
 
 ---
 
